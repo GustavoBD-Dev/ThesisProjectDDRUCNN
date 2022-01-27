@@ -58,4 +58,6 @@ with open('trainLabelsBalanced.csv', 'w+', newline = '') as file:
     for i in range(len(images)):
         writer.writerow([images[i], labels[i], images_name[i], train_test[i]])
 
+data = pd.read_csv('trainLabelsBalanced.csv')
+print(data.head())
 print('Fin del programa')
