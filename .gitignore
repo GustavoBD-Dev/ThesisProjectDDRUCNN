@@ -4,3 +4,5 @@ archive.zip
 trainLabels_cropped.csv
 references
 Cotización del proyecto DDRMRNCSE.docx
+split_data.py
+classBalancing.py
